@@ -48,6 +48,7 @@ border: none;
 /* banner start */
 .banner{
 background: rgba(229, 84, 115, 0.1);
+border-radius: 8px;
 }
 .banner-container{
 padding-top: 50px;
@@ -149,6 +150,11 @@ justify-content: center;
     justify-content: space-around;
     height: 320px;
     background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .icon-image-container{
 display: flex;
@@ -168,6 +174,7 @@ align-items: center;
 /* rose section start */
 .rose-section{
     background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
 }
 .rose-container{
     display: flex;
@@ -272,6 +279,7 @@ footer{
     background-color: rgb(17, 16, 16);
     height: 449px;
     display: flex;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
 }
